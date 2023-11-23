@@ -1,0 +1,40 @@
+body {
+    background-image: url("img/wall.webp");
+    font-family: 'Segoe UI', Tahoma,;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.list:hover { 
+    color: rgb(0, 0, 139);
+
+}
+#save_huell {
+    font-size: 200%;
+    color: rgb(0, 0, 255)
+}
+#save_huell:visited {
+    color: rgb(255, 165, 0);
+}
+#save_huell.list:hover {
+    color: rgb(255, 0, 255);
+}
+#save_huell.list:active {
+    color: rgb(0, 255, 0);
+}
+table,
+th,
+td {
+  border: 5px solid black;
+  border-collapse: collapse;
+  border-style: dotted;
+  align-items: center;
+  text-align: center;
+}
+/* #ministry { 
+    
+}*/
+
+
+
+

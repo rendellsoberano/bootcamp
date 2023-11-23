@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ISCP Employee Registration Form</title>
+</head>
+<body>
+    <h1>ISCP Employee Registration Form</h1>
+    <image src="https://upload.wikimedia.org/wikipedia/en/c/c9/Seal_of_the_International_State_College_of_the_Philippines.png"/>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/aCUhfPAyDHY?si=QdwPWMtgX2JFGKzC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <form>
+    <h2>Basic information</h2>
+    <label for="first_name">First name: </label>
+    <input 
+        type="text" 
+        placeholder="ex. Rendell" 
+        id="first_name" /><br />
+    <label for="last_name">Last name: </label>
+        <input 
+            type="text" 
+            placeholder="ex. Soberano" 
+            id="last_name" /><br />
+    <label for="place_of_birth">Place of Birth: </label>
+         <input 
+            type="text" 
+            placeholder="ex. Imus, Cavite" 
+            id="place_of_birth" /><br />
+    <label for="birthdate">Birthdate: </label>
+        <input 
+            type="date" 
+            id="birthdate"/><br />
+    <label for="civil_status">Civil status: </label>
+        <select 
+            name="civil_status" 
+            id="civil_status">
+                <option disabled selected>Select one...</option>
+                 <option value="single">single</option>
+                 <option value="married">married</option>
+                <option value="widowed">widowed</option>
+                <option value="separated">separated</option>
+        </select><br />
+    <input
+        type="radio"
+        name="gender"
+        value="male"
+        id="gender1"
+        />
+        <label for="gender1">male</label><br />
+    <input
+        type="radio"
+        name="gender"
+        value="female"
+        id="gender2"
+    />
+        <label for="gender2">female</label><br />
+    <input
+        type="radio"
+        name="gender"
+        value="male"
+        id="gender3"
+    />
+        <label for="gender3">other</label><br />
+    <label for="mother_name">Mother's maiden name: </label>
+        <input 
+            type="text" 
+            placeholder="full name" 
+            id="mother_name" /><br />
+    <label for="first_name">Father's name: </label>
+        <input 
+            type="text" 
+            placeholder="full name" 
+            id="father_name" /><br />
+
+     <h2>Contact information</h2>
+     <label for="email_address">Email Address</abel>
+         <input 
+            type="email" 
+            placeholder="ex. rendellsoberano@gmail.com" id="email_address"/><br />
+    <label for="mobile_number">Contact number (mobile)</label>
+        <input type="text"
+            placeholder="ex. 09912345678" 
+            id="mobile_number" 
+            minlength="11" 
+            maxlength="11" 
+            required /><br />
+    <label for="tel_number">Contact number (telephone)</label>
+            <input type="text"
+                placeholder="ex. 042222222" 
+                id="tel_number" 
+                minlength="9" 
+                maxlength="9" 
+                required /><br />
+
+    <h2>Address</h2>
+    <label for="street_number">Street Number: </label>
+    <input 
+       type="text" 
+       placeholder="input 6 digits" 
+       id="street_number" /><br />
+    
+    
+
+
+
+
+
+    <h2>Government information</h2>
+    <h2>Account information</h2>
+    <h2>Have you experienced any of the following in the last 30 days?</h2>
+    <input
+        type="radio"
+        value="male"
+        id="sick1"
+        />
+        <label for="sick1">Coughing</label><br />
+    <input
+        type="radio"
+        value="female"
+        id="sick2"
+    />
+        <label for="sick2">Fever</label><br />
+    <input
+        type="radio"
+        value="male"
+        id="sick3"
+    />
+        <label for="sick3">Headache</label><br />
+
+        <input
+        type="radio"
+        value="male"
+        id="sick4"
+        />
+        <label for="sick4">Common cold</label><br />
+    <input
+        type="radio"
+        value="female"
+        id="sick5"
+    />
+        <label for="sick5">Body ache</label><br />
+    <input
+        type="radio"
+        value="male"
+        id="sick6"
+    />
+        <label for="sick6">Sore throat</label><br />
+        <input
+        type="radio"
+        value="female"
+        id="sick7"
+    />
+        <label for="sick7">Tiredness</label><br />
+    <input
+        type="radio"
+        value="male"
+        id="sick8"
+    />
+        <label for="sick8">Loss of smell</label><br />
+    
+    </form>
+
+    
+</body>
+</html>

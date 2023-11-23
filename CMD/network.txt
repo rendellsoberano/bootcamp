@@ -1,0 +1,57 @@
+
+Windows IP Configuration
+
+   Host Name . . . . . . . . . . . . : LAPTOP-6G9PI8UF
+   Primary Dns Suffix  . . . . . . . : 
+   Node Type . . . . . . . . . . . . : Hybrid
+   IP Routing Enabled. . . . . . . . : No
+   WINS Proxy Enabled. . . . . . . . : No
+
+Ethernet adapter Ethernet:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : Realtek PCIe GbE Family Controller
+   Physical Address. . . . . . . . . : 3C-7C-3F-1A-7D-96
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+
+Wireless LAN adapter Local Area Connection* 13:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : Microsoft Wi-Fi Direct Virtual Adapter #5
+   Physical Address. . . . . . . . . : D2-37-45-A8-FE-91
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+
+Wireless LAN adapter Local Area Connection* 14:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : Microsoft Wi-Fi Direct Virtual Adapter #6
+   Physical Address. . . . . . . . . : D0-37-45-A8-FE-91
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+
+Wireless LAN adapter Wi-Fi 3:
+
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : TP-Link Wireless Nano USB Adapter
+   Physical Address. . . . . . . . . : D0-37-45-A8-FE-91
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+   Link-local IPv6 Address . . . . . : fe80::3f93:ac61:b7b4:99f0%20(Preferred) 
+   IPv4 Address. . . . . . . . . . . : 192.168.1.20(Preferred) 
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Lease Obtained. . . . . . . . . . : Tuesday, 7 November 2023 7:09:52 pm
+   Lease Expires . . . . . . . . . . : Friday, 10 November 2023 8:55:16 am
+   Default Gateway . . . . . . . . . : 192.168.1.1
+   DHCP Server . . . . . . . . . . . : 192.168.1.1
+   DHCPv6 IAID . . . . . . . . . . . : 231749445
+   DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-26-C8-E2-8D-3C-7C-3F-1A-7D-96
+   DNS Servers . . . . . . . . . . . : 2001:4450:f0:2::c53
+                                       2001:4450:f0:e::c53
+                                       121.54.70.149
+                                       121.54.70.138
+   NetBIOS over Tcpip. . . . . . . . : Enabled

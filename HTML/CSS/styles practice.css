@@ -1,0 +1,25 @@
+body {
+  background-color: bisque;
+  font-family: "Helvetica",sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+#about-heading
+{
+  color: blueviolet;
+
+}
+.resume-heading
+{ color: blue;
+
+}
+#college-school{
+    color: orange;
+}
+#hs-school{
+    color: orange;
+    font-size: 200%
+    ;
+}
+
+
