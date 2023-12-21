@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Login</title>
+    <script>
+      $(document).ready(function () {
+        $("#sub").submit(function (x) {
+          let default_user = "user";
+          let default_pass = "pw123";
+          if (username == default_user && password == default_pass) {
+            window.location.href = "home.html";
+          } else {
+            alert("Incorrect username!");
+          }
+          x.preventDefault();
+        });
+
+        $("#user").blur(function () {
+          let username = $("#user").val();
+          localStorage.setItem("username", username);
+        });
+
+        $("#pass").blur(function () {
+          let password = $("#pass").val();
+          localStorage.setItem("password", password);
+        });
+
+        $("#check").click(function () {});
+      });
+    </script>
+  </head>
+  <body style="margin-top: 10px; margin-left: 10px">
+    <form>
+      <div>
+        <label>Username: </label>
+        <input type="text" id="user" />
+      </div>
+      <div>
+        <label>Password: </label>
+        <input type="password" id="pass" />
+      </div>
+      <div>
+        <p><input type="checkbox" id="check" /> Remind me</p>
+      </div>
+      <button type="button" id="sub">Submit</button>
+    </form>
+  </body>
+</html>

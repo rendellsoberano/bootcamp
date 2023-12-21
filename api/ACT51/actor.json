@@ -1,0 +1,1082 @@
+{
+  "@meta": {
+    "operation": "NameAwards",
+    "requestId": "6c79d700-c0a6-4f11-82cc-3150de7de983",
+    "serviceTimeMs": 21.576503
+  },
+  "resource": {
+    "@type": "imdb.api.name.awards",
+    "awards": [
+      {
+        "awardName": "ALFS Award",
+        "awardNominationId": "/event/ev0000403/ee0034696/an0026438/",
+        "category": "British Newcomer of the Year",
+        "eventEditionId": "/event/ev0000403/ee0034696/",
+        "eventId": "/event/ev0000403/",
+        "eventName": "London Critics Circle Film Awards",
+        "instanceWithinYear": 1,
+        "isWinner": false,
+        "nominations": {
+          "names": [
+            {
+              "akas": [
+                "Jonathan Rhys Myers",
+                "Jonathan Rhys-Meyers",
+                "Jonathan Rhys-Myer"
+              ],
+              "id": "/name/nm0001667/",
+              "image": {
+                "height": 2208,
+                "id": "/name/nm0001667/images/rm1272017664",
+                "url": "https://m.media-amazon.com/images/M/MV5BMGEwYzJhOTctNjZkMy00NTZjLWE3MTctNGU2ZGRmODNiZmNiXkEyXkFqcGdeQXVyOTQyNzIyMDM@._V1_.jpg",
+                "width": 1242
+              },
+              "legacyNameText": "Rhys Meyers, Jonathan",
+              "name": "Jonathan Rhys Meyers"
+            }
+          ],
+          "titles": [
+            {
+              "id": "/title/tt0120879/",
+              "image": {
+                "height": 1440,
+                "id": "/title/tt0120879/images/rm3594782208",
+                "url": "https://m.media-amazon.com/images/M/MV5BZjVjZTM3NTktYjdkOS00ZjMyLTg3NzYtOWVmMzEyNDc5ZmIyL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg",
+                "width": 960
+              },
+              "runningTimeInMinutes": 118,
+              "title": "Velvet Goldmine",
+              "titleType": "movie",
+              "year": 1998
+            }
+          ]
+        },
+        "year": 1999
+      },
+      {
+        "awardName": "Chopard Trophy",
+        "awardNominationId": "/event/ev0000147/ee0024950/an0043965/",
+        "category": "Male Revelation",
+        "eventEditionId": "/event/ev0000147/ee0024950/",
+        "eventId": "/event/ev0000147/",
+        "eventName": "Cannes Film Festival",
+        "instanceWithinYear": 1,
+        "isWinner": true,
+        "nominations": {
+          "names": [
+            {
+              "akas": [
+                "Jonathan Rhys Myers",
+                "Jonathan Rhys-Meyers",
+                "Jonathan Rhys-Myer"
+              ],
+              "id": "/name/nm0001667/",
+              "image": {
+                "height": 2208,
+                "id": "/name/nm0001667/images/rm1272017664",
+                "url": "https://m.media-amazon.com/images/M/MV5BMGEwYzJhOTctNjZkMy00NTZjLWE3MTctNGU2ZGRmODNiZmNiXkEyXkFqcGdeQXVyOTQyNzIyMDM@._V1_.jpg",
+                "width": 1242
+              },
+              "legacyNameText": "Rhys Meyers, Jonathan",
+              "name": "Jonathan Rhys Meyers"
+            }
+          ]
+        },
+        "winningRank": 1,
+        "year": 2005
+      },
+      {
+        "awardName": "Golden Globe",
+        "awardNominationId": "/event/ev0000292/ee0022238/an0065774/",
+        "category": "Best Performance by an Actor in a Television Series - Drama",
+        "eventEditionId": "/event/ev0000292/ee0022238/",
+        "eventId": "/event/ev0000292/",
+        "eventName": "Golden Globes, USA",
+        "instanceWithinYear": 1,
+        "isWinner": false,
+        "nominations": {
+          "names": [
+            {
+              "akas": [
+                "Jonathan Rhys Myers",
+                "Jonathan Rhys-Meyers",
+                "Jonathan Rhys-Myer"
+              ],
+              "id": "/name/nm0001667/",
+              "image": {
+                "height": 2208,
+                "id": "/name/nm0001667/images/rm1272017664",
+                "url": "https://m.media-amazon.com/images/M/MV5BMGEwYzJhOTctNjZkMy00NTZjLWE3MTctNGU2ZGRmODNiZmNiXkEyXkFqcGdeQXVyOTQyNzIyMDM@._V1_.jpg",
+                "width": 1242
+              },
+              "legacyNameText": "Rhys Meyers, Jonathan",
+              "name": "Jonathan Rhys Meyers"
+            }
+          ],
+          "titles": [
+            {
+              "id": "/title/tt0758790/",
+              "image": {
+                "height": 600,
+                "id": "/title/tt0758790/images/rm225744384",
+                "url": "https://m.media-amazon.com/images/M/MV5BMTI2MDU0MjEzMV5BMl5BanBnXkFtZTcwMTA1NTM2MQ@@._V1_.jpg",
+                "width": 429
+              },
+              "runningTimeInMinutes": 60,
+              "nextEpisode": "/title/tt0987812/",
+              "numberOfEpisodes": 38,
+              "seriesEndYear": 2010,
+              "seriesStartYear": 2007,
+              "title": "The Tudors",
+              "titleType": "tvSeries",
+              "year": 2007
+            }
+          ]
+        },
+        "year": 2009
+      },
+      {
+        "awardName": "Golden Globe",
+        "awardNominationId": "/event/ev0000292/ee0025153/an0066426/",
+        "category": "Best Performance by an Actor in a Miniseries or a Motion Picture Made for Television",
+        "eventEditionId": "/event/ev0000292/ee0025153/",
+        "eventId": "/event/ev0000292/",
+        "eventName": "Golden Globes, USA",
+        "instanceWithinYear": 1,
+        "isWinner": true,
+        "nominations": {
+          "names": [
+            {
+              "akas": [
+                "Jonathan Rhys Myers",
+                "Jonathan Rhys-Meyers",
+                "Jonathan Rhys-Myer"
+              ],
+              "id": "/name/nm0001667/",
+              "image": {
+                "height": 2208,
+                "id": "/name/nm0001667/images/rm1272017664",
+                "url": "https://m.media-amazon.com/images/M/MV5BMGEwYzJhOTctNjZkMy00NTZjLWE3MTctNGU2ZGRmODNiZmNiXkEyXkFqcGdeQXVyOTQyNzIyMDM@._V1_.jpg",
+                "width": 1242
+              },
+              "legacyNameText": "Rhys Meyers, Jonathan",
+              "name": "Jonathan Rhys Meyers"
+            }
+          ],
+          "titles": [
+            {
+              "id": "/title/tt0437714/",
+              "image": {
+                "height": 770,
+                "id": "/title/tt0437714/images/rm916457472",
+                "url": "https://m.media-amazon.com/images/M/MV5BZTY2MzQ5MTAtMzNkNy00ZDNlLTkwZWQtZjE1MjZkYWNhMTFjXkEyXkFqcGdeQXVyMjgyMDk1MzY@._V1_.jpg",
+                "width": 512
+              },
+              "runningTimeInMinutes": 173,
+              "nextEpisode": "/title/tt5818050/",
+              "numberOfEpisodes": 2,
+              "seriesEndYear": 2005,
+              "seriesStartYear": 2005,
+              "title": "Elvis",
+              "titleType": "tvMiniSeries",
+              "year": 2005
+            }
+          ]
+        },
+        "winningRank": 1,
+        "year": 2006
+      },
+      {
+        "awardName": "Golden Globe",
+        "awardNominationId": "/event/ev0000292/ee0033718/an0068313/",
+        "category": "Best Performance by an Actor in a Television Series - Drama",
+        "eventEditionId": "/event/ev0000292/ee0033718/",
+        "eventId": "/event/ev0000292/",
+        "eventName": "Golden Globes, USA",
+        "instanceWithinYear": 1,
+        "isWinner": false,
+        "nominations": {
+          "names": [
+            {
+              "akas": [
+                "Jonathan Rhys Myers",
+                "Jonathan Rhys-Meyers",
+                "Jonathan Rhys-Myer"
+              ],
+              "id": "/name/nm0001667/",
+              "image": {
+                "height": 2208,
+                "id": "/name/nm0001667/images/rm1272017664",
+                "url": "https://m.media-amazon.com/images/M/MV5BMGEwYzJhOTctNjZkMy00NTZjLWE3MTctNGU2ZGRmODNiZmNiXkEyXkFqcGdeQXVyOTQyNzIyMDM@._V1_.jpg",
+                "width": 1242
+              },
+              "legacyNameText": "Rhys Meyers, Jonathan",
+              "name": "Jonathan Rhys Meyers"
+            }
+          ],
+          "titles": [
+            {
+              "id": "/title/tt0758790/",
+              "image": {
+                "height": 600,
+                "id": "/title/tt0758790/images/rm225744384",
+                "url": "https://m.media-amazon.com/images/M/MV5BMTI2MDU0MjEzMV5BMl5BanBnXkFtZTcwMTA1NTM2MQ@@._V1_.jpg",
+                "width": 429
+              },
+              "runningTimeInMinutes": 60,
+              "nextEpisode": "/title/tt0987812/",
+              "numberOfEpisodes": 38,
+              "seriesEndYear": 2010,
+              "seriesStartYear": 2007,
+              "title": "The Tudors",
+              "titleType": "tvSeries",
+              "year": 2007
+            }
+          ]
+        },
+        "year": 2008
+      },
+      {
+        "awardName": "Golden Nymph",
+        "awardNominationId": "/event/ev0000446/ee0040885/an0090329/",
+        "category": "Outstanding Actor - Drama Series",
+        "eventEditionId": "/event/ev0000446/ee0040885/",
+        "eventId": "/event/ev0000446/",
+        "eventName": "Monte-Carlo TV Festival",
+        "instanceWithinYear": 1,
+        "isWinner": true,
+        "nominations": {
+          "names": [
+            {
+              "akas": [
+                "Jonathan Rhys Myers",
+                "Jonathan Rhys-Meyers",
+                "Jonathan Rhys-Myer"
+              ],
+              "id": "/name/nm0001667/",
+              "image": {
+                "height": 2208,
+                "id": "/name/nm0001667/images/rm1272017664",
+                "url": "https://m.media-amazon.com/images/M/MV5BMGEwYzJhOTctNjZkMy00NTZjLWE3MTctNGU2ZGRmODNiZmNiXkEyXkFqcGdeQXVyOTQyNzIyMDM@._V1_.jpg",
+                "width": 1242
+              },
+              "legacyNameText": "Rhys Meyers, Jonathan",
+              "name": "Jonathan Rhys Meyers"
+            }
+          ],
+          "titles": [
+            {
+              "id": "/title/tt0758790/",
+              "image": {
+                "height": 600,
+                "id": "/title/tt0758790/images/rm225744384",
+                "url": "https://m.media-amazon.com/images/M/MV5BMTI2MDU0MjEzMV5BMl5BanBnXkFtZTcwMTA1NTM2MQ@@._V1_.jpg",
+                "width": 429
+              },
+              "runningTimeInMinutes": 60,
+              "nextEpisode": "/title/tt0987812/",
+              "numberOfEpisodes": 38,
+              "seriesEndYear": 2010,
+              "seriesStartYear": 2007,
+              "title": "The Tudors",
+              "titleType": "tvSeries",
+              "year": 2007
+            }
+          ]
+        },
+        "winningRank": 1,
+        "year": 2008
+      },
+      {
+        "awardName": "IFTA Award",
+        "awardNominationId": "/event/ev0000365/ee0023358/an0134363/",
+        "category": "Best Actor in a Lead Role in Television",
+        "eventEditionId": "/event/ev0000365/ee0023358/",
+        "eventId": "/event/ev0000365/",
+        "eventName": "Irish Film and Television Awards",
+        "instanceWithinYear": 1,
+        "isWinner": true,
+        "nominations": {
+          "names": [
+            {
+              "akas": [
+                "Jonathan Rhys Myers",
+                "Jonathan Rhys-Meyers",
+                "Jonathan Rhys-Myer"
+              ],
+              "id": "/name/nm0001667/",
+              "image": {
+                "height": 2208,
+                "id": "/name/nm0001667/images/rm1272017664",
+                "url": "https://m.media-amazon.com/images/M/MV5BMGEwYzJhOTctNjZkMy00NTZjLWE3MTctNGU2ZGRmODNiZmNiXkEyXkFqcGdeQXVyOTQyNzIyMDM@._V1_.jpg",
+                "width": 1242
+              },
+              "legacyNameText": "Rhys Meyers, Jonathan",
+              "name": "Jonathan Rhys Meyers"
+            }
+          ],
+          "titles": [
+            {
+              "id": "/title/tt0758790/",
+              "image": {
+                "height": 600,
+                "id": "/title/tt0758790/images/rm225744384",
+                "url": "https://m.media-amazon.com/images/M/MV5BMTI2MDU0MjEzMV5BMl5BanBnXkFtZTcwMTA1NTM2MQ@@._V1_.jpg",
+                "width": 429
+              },
+              "runningTimeInMinutes": 60,
+              "nextEpisode": "/title/tt0987812/",
+              "numberOfEpisodes": 38,
+              "seriesEndYear": 2010,
+              "seriesStartYear": 2007,
+              "title": "The Tudors",
+              "titleType": "tvSeries",
+              "year": 2007
+            }
+          ]
+        },
+        "winningRank": 1,
+        "year": 2008
+      },
+      {
+        "awardName": "IFTA Award",
+        "awardNominationId": "/event/ev0000365/ee0034934/an0134459/",
+        "category": "Best Actor in a Lead Role in Television",
+        "eventEditionId": "/event/ev0000365/ee0034934/",
+        "eventId": "/event/ev0000365/",
+        "eventName": "Irish Film and Television Awards",
+        "instanceWithinYear": 1,
+        "isWinner": false,
+        "nominations": {
+          "names": [
+            {
+              "akas": [
+                "Jonathan Rhys Myers",
+                "Jonathan Rhys-Meyers",
+                "Jonathan Rhys-Myer"
+              ],
+              "id": "/name/nm0001667/",
+              "image": {
+                "height": 2208,
+                "id": "/name/nm0001667/images/rm1272017664",
+                "url": "https://m.media-amazon.com/images/M/MV5BMGEwYzJhOTctNjZkMy00NTZjLWE3MTctNGU2ZGRmODNiZmNiXkEyXkFqcGdeQXVyOTQyNzIyMDM@._V1_.jpg",
+                "width": 1242
+              },
+              "legacyNameText": "Rhys Meyers, Jonathan",
+              "name": "Jonathan Rhys Meyers"
+            }
+          ],
+          "titles": [
+            {
+              "id": "/title/tt0758790/",
+              "image": {
+                "height": 600,
+                "id": "/title/tt0758790/images/rm225744384",
+                "url": "https://m.media-amazon.com/images/M/MV5BMTI2MDU0MjEzMV5BMl5BanBnXkFtZTcwMTA1NTM2MQ@@._V1_.jpg",
+                "width": 429
+              },
+              "runningTimeInMinutes": 60,
+              "nextEpisode": "/title/tt0987812/",
+              "numberOfEpisodes": 38,
+              "seriesEndYear": 2010,
+              "seriesStartYear": 2007,
+              "title": "The Tudors",
+              "titleType": "tvSeries",
+              "year": 2007
+            }
+          ]
+        },
+        "year": 2009
+      },
+      {
+        "awardName": "IFTA Award",
+        "awardNominationId": "/event/ev0000365/ee0036519/an0134578/",
+        "category": "Best Actor in a Lead Role in Television",
+        "eventEditionId": "/event/ev0000365/ee0036519/",
+        "eventId": "/event/ev0000365/",
+        "eventName": "Irish Film and Television Awards",
+        "instanceWithinYear": 1,
+        "isWinner": false,
+        "nominations": {
+          "names": [
+            {
+              "akas": [
+                "Jonathan Rhys Myers",
+                "Jonathan Rhys-Meyers",
+                "Jonathan Rhys-Myer"
+              ],
+              "id": "/name/nm0001667/",
+              "image": {
+                "height": 2208,
+                "id": "/name/nm0001667/images/rm1272017664",
+                "url": "https://m.media-amazon.com/images/M/MV5BMGEwYzJhOTctNjZkMy00NTZjLWE3MTctNGU2ZGRmODNiZmNiXkEyXkFqcGdeQXVyOTQyNzIyMDM@._V1_.jpg",
+                "width": 1242
+              },
+              "legacyNameText": "Rhys Meyers, Jonathan",
+              "name": "Jonathan Rhys Meyers"
+            }
+          ],
+          "titles": [
+            {
+              "id": "/title/tt0758790/",
+              "image": {
+                "height": 600,
+                "id": "/title/tt0758790/images/rm225744384",
+                "url": "https://m.media-amazon.com/images/M/MV5BMTI2MDU0MjEzMV5BMl5BanBnXkFtZTcwMTA1NTM2MQ@@._V1_.jpg",
+                "width": 429
+              },
+              "runningTimeInMinutes": 60,
+              "nextEpisode": "/title/tt0987812/",
+              "numberOfEpisodes": 38,
+              "seriesEndYear": 2010,
+              "seriesStartYear": 2007,
+              "title": "The Tudors",
+              "titleType": "tvSeries",
+              "year": 2007
+            }
+          ]
+        },
+        "year": 2010
+      },
+      {
+        "awardName": "Primetime Emmy",
+        "awardNominationId": "/event/ev0000223/ee0020584/an0165124/",
+        "category": "Outstanding Lead Actor in a Miniseries or a Movie",
+        "eventEditionId": "/event/ev0000223/ee0020584/",
+        "eventId": "/event/ev0000223/",
+        "eventName": "Primetime Emmy Awards",
+        "instanceWithinYear": 1,
+        "isWinner": false,
+        "nominations": {
+          "names": [
+            {
+              "akas": [
+                "Jonathan Rhys Myers",
+                "Jonathan Rhys-Meyers",
+                "Jonathan Rhys-Myer"
+              ],
+              "id": "/name/nm0001667/",
+              "image": {
+                "height": 2208,
+                "id": "/name/nm0001667/images/rm1272017664",
+                "url": "https://m.media-amazon.com/images/M/MV5BMGEwYzJhOTctNjZkMy00NTZjLWE3MTctNGU2ZGRmODNiZmNiXkEyXkFqcGdeQXVyOTQyNzIyMDM@._V1_.jpg",
+                "width": 1242
+              },
+              "legacyNameText": "Rhys Meyers, Jonathan",
+              "name": "Jonathan Rhys Meyers"
+            }
+          ],
+          "titles": [
+            {
+              "id": "/title/tt0437714/",
+              "image": {
+                "height": 770,
+                "id": "/title/tt0437714/images/rm916457472",
+                "url": "https://m.media-amazon.com/images/M/MV5BZTY2MzQ5MTAtMzNkNy00ZDNlLTkwZWQtZjE1MjZkYWNhMTFjXkEyXkFqcGdeQXVyMjgyMDk1MzY@._V1_.jpg",
+                "width": 512
+              },
+              "runningTimeInMinutes": 173,
+              "nextEpisode": "/title/tt5818050/",
+              "numberOfEpisodes": 2,
+              "seriesEndYear": 2005,
+              "seriesStartYear": 2005,
+              "title": "Elvis",
+              "titleType": "tvMiniSeries",
+              "year": 2005
+            }
+          ]
+        },
+        "notes": "For playing \"Elvis Presley\".",
+        "year": 2005
+      },
+      {
+        "awardName": "Satellite Award",
+        "awardNominationId": "/event/ev0000296/ee0033876/an0247994/",
+        "category": "Outstanding Actor in a Miniseries or a Motion Picture Made for Television",
+        "eventEditionId": "/event/ev0000296/ee0033876/",
+        "eventId": "/event/ev0000296/",
+        "eventName": "Satellite Awards",
+        "instanceWithinYear": 2,
+        "isWinner": true,
+        "nominations": {
+          "names": [
+            {
+              "akas": [
+                "Jonathan Rhys Myers",
+                "Jonathan Rhys-Meyers",
+                "Jonathan Rhys-Myer"
+              ],
+              "id": "/name/nm0001667/",
+              "image": {
+                "height": 2208,
+                "id": "/name/nm0001667/images/rm1272017664",
+                "url": "https://m.media-amazon.com/images/M/MV5BMGEwYzJhOTctNjZkMy00NTZjLWE3MTctNGU2ZGRmODNiZmNiXkEyXkFqcGdeQXVyOTQyNzIyMDM@._V1_.jpg",
+                "width": 1242
+              },
+              "legacyNameText": "Rhys Meyers, Jonathan",
+              "name": "Jonathan Rhys Meyers"
+            }
+          ],
+          "titles": [
+            {
+              "id": "/title/tt0437714/",
+              "image": {
+                "height": 770,
+                "id": "/title/tt0437714/images/rm916457472",
+                "url": "https://m.media-amazon.com/images/M/MV5BZTY2MzQ5MTAtMzNkNy00ZDNlLTkwZWQtZjE1MjZkYWNhMTFjXkEyXkFqcGdeQXVyMjgyMDk1MzY@._V1_.jpg",
+                "width": 512
+              },
+              "runningTimeInMinutes": 173,
+              "nextEpisode": "/title/tt5818050/",
+              "numberOfEpisodes": 2,
+              "seriesEndYear": 2005,
+              "seriesStartYear": 2005,
+              "title": "Elvis",
+              "titleType": "tvMiniSeries",
+              "year": 2005
+            }
+          ]
+        },
+        "winningRank": 1,
+        "year": 2005
+      },
+      {
+        "awardName": "Golden Nymph",
+        "awardNominationId": "/event/ev0000446/ee0040887/an0316321/",
+        "category": "Outstanding Actor - Drama Series",
+        "eventEditionId": "/event/ev0000446/ee0040887/",
+        "eventId": "/event/ev0000446/",
+        "eventName": "Monte-Carlo TV Festival",
+        "instanceWithinYear": 1,
+        "isWinner": false,
+        "nominations": {
+          "names": [
+            {
+              "akas": [
+                "Jonathan Rhys Myers",
+                "Jonathan Rhys-Meyers",
+                "Jonathan Rhys-Myer"
+              ],
+              "id": "/name/nm0001667/",
+              "image": {
+                "height": 2208,
+                "id": "/name/nm0001667/images/rm1272017664",
+                "url": "https://m.media-amazon.com/images/M/MV5BMGEwYzJhOTctNjZkMy00NTZjLWE3MTctNGU2ZGRmODNiZmNiXkEyXkFqcGdeQXVyOTQyNzIyMDM@._V1_.jpg",
+                "width": 1242
+              },
+              "legacyNameText": "Rhys Meyers, Jonathan",
+              "name": "Jonathan Rhys Meyers"
+            }
+          ],
+          "titles": [
+            {
+              "id": "/title/tt0758790/",
+              "image": {
+                "height": 600,
+                "id": "/title/tt0758790/images/rm225744384",
+                "url": "https://m.media-amazon.com/images/M/MV5BMTI2MDU0MjEzMV5BMl5BanBnXkFtZTcwMTA1NTM2MQ@@._V1_.jpg",
+                "width": 429
+              },
+              "runningTimeInMinutes": 60,
+              "nextEpisode": "/title/tt0987812/",
+              "numberOfEpisodes": 38,
+              "seriesEndYear": 2010,
+              "seriesStartYear": 2007,
+              "title": "The Tudors",
+              "titleType": "tvSeries",
+              "year": 2007
+            }
+          ]
+        },
+        "year": 2011
+      },
+      {
+        "awardName": "Golden Nymph",
+        "awardNominationId": "/event/ev0000446/ee0023682/an0325763/",
+        "category": "Outstanding Actor - Drama Series",
+        "eventEditionId": "/event/ev0000446/ee0023682/",
+        "eventId": "/event/ev0000446/",
+        "eventName": "Monte-Carlo TV Festival",
+        "instanceWithinYear": 1,
+        "isWinner": false,
+        "nominations": {
+          "names": [
+            {
+              "akas": [
+                "Jonathan Rhys Myers",
+                "Jonathan Rhys-Meyers",
+                "Jonathan Rhys-Myer"
+              ],
+              "id": "/name/nm0001667/",
+              "image": {
+                "height": 2208,
+                "id": "/name/nm0001667/images/rm1272017664",
+                "url": "https://m.media-amazon.com/images/M/MV5BMGEwYzJhOTctNjZkMy00NTZjLWE3MTctNGU2ZGRmODNiZmNiXkEyXkFqcGdeQXVyOTQyNzIyMDM@._V1_.jpg",
+                "width": 1242
+              },
+              "legacyNameText": "Rhys Meyers, Jonathan",
+              "name": "Jonathan Rhys Meyers"
+            }
+          ],
+          "titles": [
+            {
+              "id": "/title/tt0758790/",
+              "image": {
+                "height": 600,
+                "id": "/title/tt0758790/images/rm225744384",
+                "url": "https://m.media-amazon.com/images/M/MV5BMTI2MDU0MjEzMV5BMl5BanBnXkFtZTcwMTA1NTM2MQ@@._V1_.jpg",
+                "width": 429
+              },
+              "runningTimeInMinutes": 60,
+              "nextEpisode": "/title/tt0987812/",
+              "numberOfEpisodes": 38,
+              "seriesEndYear": 2010,
+              "seriesStartYear": 2007,
+              "title": "The Tudors",
+              "titleType": "tvSeries",
+              "year": 2007
+            }
+          ]
+        },
+        "year": 2009
+      },
+      {
+        "awardName": "IFTA Award",
+        "awardNominationId": "/event/ev0000365/ee0040775/an0328007/",
+        "category": "Best Actor in a Lead Role in Television",
+        "eventEditionId": "/event/ev0000365/ee0040775/",
+        "eventId": "/event/ev0000365/",
+        "eventName": "Irish Film and Television Awards",
+        "instanceWithinYear": 1,
+        "isWinner": false,
+        "nominations": {
+          "names": [
+            {
+              "akas": [
+                "Jonathan Rhys Myers",
+                "Jonathan Rhys-Meyers",
+                "Jonathan Rhys-Myer"
+              ],
+              "id": "/name/nm0001667/",
+              "image": {
+                "height": 2208,
+                "id": "/name/nm0001667/images/rm1272017664",
+                "url": "https://m.media-amazon.com/images/M/MV5BMGEwYzJhOTctNjZkMy00NTZjLWE3MTctNGU2ZGRmODNiZmNiXkEyXkFqcGdeQXVyOTQyNzIyMDM@._V1_.jpg",
+                "width": 1242
+              },
+              "legacyNameText": "Rhys Meyers, Jonathan",
+              "name": "Jonathan Rhys Meyers"
+            }
+          ],
+          "titles": [
+            {
+              "id": "/title/tt0758790/",
+              "image": {
+                "height": 600,
+                "id": "/title/tt0758790/images/rm225744384",
+                "url": "https://m.media-amazon.com/images/M/MV5BMTI2MDU0MjEzMV5BMl5BanBnXkFtZTcwMTA1NTM2MQ@@._V1_.jpg",
+                "width": 429
+              },
+              "runningTimeInMinutes": 60,
+              "nextEpisode": "/title/tt0987812/",
+              "numberOfEpisodes": 38,
+              "seriesEndYear": 2010,
+              "seriesStartYear": 2007,
+              "title": "The Tudors",
+              "titleType": "tvSeries",
+              "year": 2007
+            }
+          ]
+        },
+        "year": 2011
+      },
+      {
+        "awardName": "Golden Nymph",
+        "awardNominationId": "/event/ev0000446/ee0040886/an0330174/",
+        "category": "Outstanding Actor - Drama Series",
+        "eventEditionId": "/event/ev0000446/ee0040886/",
+        "eventId": "/event/ev0000446/",
+        "eventName": "Monte-Carlo TV Festival",
+        "instanceWithinYear": 1,
+        "isWinner": false,
+        "nominations": {
+          "names": [
+            {
+              "akas": [
+                "Jonathan Rhys Myers",
+                "Jonathan Rhys-Meyers",
+                "Jonathan Rhys-Myer"
+              ],
+              "id": "/name/nm0001667/",
+              "image": {
+                "height": 2208,
+                "id": "/name/nm0001667/images/rm1272017664",
+                "url": "https://m.media-amazon.com/images/M/MV5BMGEwYzJhOTctNjZkMy00NTZjLWE3MTctNGU2ZGRmODNiZmNiXkEyXkFqcGdeQXVyOTQyNzIyMDM@._V1_.jpg",
+                "width": 1242
+              },
+              "legacyNameText": "Rhys Meyers, Jonathan",
+              "name": "Jonathan Rhys Meyers"
+            }
+          ],
+          "titles": [
+            {
+              "id": "/title/tt0758790/",
+              "image": {
+                "height": 600,
+                "id": "/title/tt0758790/images/rm225744384",
+                "url": "https://m.media-amazon.com/images/M/MV5BMTI2MDU0MjEzMV5BMl5BanBnXkFtZTcwMTA1NTM2MQ@@._V1_.jpg",
+                "width": 429
+              },
+              "runningTimeInMinutes": 60,
+              "nextEpisode": "/title/tt0987812/",
+              "numberOfEpisodes": 38,
+              "seriesEndYear": 2010,
+              "seriesStartYear": 2007,
+              "title": "The Tudors",
+              "titleType": "tvSeries",
+              "year": 2007
+            }
+          ]
+        },
+        "year": 2010
+      },
+      {
+        "awardName": "People's Choice Award",
+        "awardNominationId": "/event/ev0000530/ee0044689/an0466792/",
+        "category": "Favorite Actor in a New TV Series",
+        "eventEditionId": "/event/ev0000530/ee0044689/",
+        "eventId": "/event/ev0000530/",
+        "eventName": "People's Choice Awards, USA",
+        "instanceWithinYear": 1,
+        "isWinner": false,
+        "nominations": {
+          "names": [
+            {
+              "akas": [
+                "Jonathan Rhys Myers",
+                "Jonathan Rhys-Meyers",
+                "Jonathan Rhys-Myer"
+              ],
+              "id": "/name/nm0001667/",
+              "image": {
+                "height": 2208,
+                "id": "/name/nm0001667/images/rm1272017664",
+                "url": "https://m.media-amazon.com/images/M/MV5BMGEwYzJhOTctNjZkMy00NTZjLWE3MTctNGU2ZGRmODNiZmNiXkEyXkFqcGdeQXVyOTQyNzIyMDM@._V1_.jpg",
+                "width": 1242
+              },
+              "legacyNameText": "Rhys Meyers, Jonathan",
+              "name": "Jonathan Rhys Meyers"
+            }
+          ]
+        },
+        "year": 2014
+      },
+      {
+        "awardName": "OFTA Television Award",
+        "awardNominationId": "/event/ev0002704/ee0047897/an0537944/",
+        "category": "Best Actor in a Motion Picture or Miniseries",
+        "eventEditionId": "/event/ev0002704/ee0047897/",
+        "eventId": "/event/ev0002704/",
+        "eventName": "Online Film & Television Association",
+        "instanceWithinYear": 1,
+        "isWinner": false,
+        "nominations": {
+          "names": [
+            {
+              "akas": [
+                "Jonathan Rhys Myers",
+                "Jonathan Rhys-Meyers",
+                "Jonathan Rhys-Myer"
+              ],
+              "id": "/name/nm0001667/",
+              "image": {
+                "height": 2208,
+                "id": "/name/nm0001667/images/rm1272017664",
+                "url": "https://m.media-amazon.com/images/M/MV5BMGEwYzJhOTctNjZkMy00NTZjLWE3MTctNGU2ZGRmODNiZmNiXkEyXkFqcGdeQXVyOTQyNzIyMDM@._V1_.jpg",
+                "width": 1242
+              },
+              "legacyNameText": "Rhys Meyers, Jonathan",
+              "name": "Jonathan Rhys Meyers"
+            }
+          ],
+          "titles": [
+            {
+              "id": "/title/tt0437714/",
+              "image": {
+                "height": 770,
+                "id": "/title/tt0437714/images/rm916457472",
+                "url": "https://m.media-amazon.com/images/M/MV5BZTY2MzQ5MTAtMzNkNy00ZDNlLTkwZWQtZjE1MjZkYWNhMTFjXkEyXkFqcGdeQXVyMjgyMDk1MzY@._V1_.jpg",
+                "width": 512
+              },
+              "runningTimeInMinutes": 173,
+              "nextEpisode": "/title/tt5818050/",
+              "numberOfEpisodes": 2,
+              "seriesEndYear": 2005,
+              "seriesStartYear": 2005,
+              "title": "Elvis",
+              "titleType": "tvMiniSeries",
+              "year": 2005
+            }
+          ]
+        },
+        "year": 2005
+      },
+      {
+        "awardName": "IOMA",
+        "awardNominationId": "/event/ev0002994/ee0060029/an0727487/",
+        "category": "Best Actor (Miglior attore protagonista)",
+        "eventEditionId": "/event/ev0002994/ee0060029/",
+        "eventId": "/event/ev0002994/",
+        "eventName": "Italian Online Movie Awards (IOMA)",
+        "instanceWithinYear": 1,
+        "isWinner": false,
+        "nominations": {
+          "names": [
+            {
+              "akas": [
+                "Jonathan Rhys Myers",
+                "Jonathan Rhys-Meyers",
+                "Jonathan Rhys-Myer"
+              ],
+              "id": "/name/nm0001667/",
+              "image": {
+                "height": 2208,
+                "id": "/name/nm0001667/images/rm1272017664",
+                "url": "https://m.media-amazon.com/images/M/MV5BMGEwYzJhOTctNjZkMy00NTZjLWE3MTctNGU2ZGRmODNiZmNiXkEyXkFqcGdeQXVyOTQyNzIyMDM@._V1_.jpg",
+                "width": 1242
+              },
+              "legacyNameText": "Rhys Meyers, Jonathan",
+              "name": "Jonathan Rhys Meyers"
+            }
+          ],
+          "titles": [
+            {
+              "id": "/title/tt0416320/",
+              "image": {
+                "height": 1600,
+                "id": "/title/tt0416320/images/rm2359922177",
+                "url": "https://m.media-amazon.com/images/M/MV5BMjRjOTMwMDEtNTY4NS00OWRjLWI4ZWItZDgwYmZhMzlkYzgxXkEyXkFqcGdeQXVyODIxOTg5MTc@._V1_.jpg",
+                "width": 1138
+              },
+              "runningTimeInMinutes": 124,
+              "title": "Match Point",
+              "titleType": "movie",
+              "year": 2005
+            }
+          ]
+        },
+        "year": 2006
+      },
+      {
+        "awardName": "Gold Derby TV Award",
+        "awardNominationId": "/event/ev0003547/ee0058966/an0728533/",
+        "category": "TV Movie/Mini Actor of the Decade",
+        "eventEditionId": "/event/ev0003547/ee0058966/",
+        "eventId": "/event/ev0003547/",
+        "eventName": "Gold Derby Awards",
+        "instanceWithinYear": 1,
+        "isWinner": false,
+        "nominations": {
+          "names": [
+            {
+              "akas": [
+                "Jonathan Rhys Myers",
+                "Jonathan Rhys-Meyers",
+                "Jonathan Rhys-Myer"
+              ],
+              "id": "/name/nm0001667/",
+              "image": {
+                "height": 2208,
+                "id": "/name/nm0001667/images/rm1272017664",
+                "url": "https://m.media-amazon.com/images/M/MV5BMGEwYzJhOTctNjZkMy00NTZjLWE3MTctNGU2ZGRmODNiZmNiXkEyXkFqcGdeQXVyOTQyNzIyMDM@._V1_.jpg",
+                "width": 1242
+              },
+              "legacyNameText": "Rhys Meyers, Jonathan",
+              "name": "Jonathan Rhys Meyers"
+            }
+          ],
+          "titles": [
+            {
+              "id": "/title/tt0437714/",
+              "image": {
+                "height": 770,
+                "id": "/title/tt0437714/images/rm916457472",
+                "url": "https://m.media-amazon.com/images/M/MV5BZTY2MzQ5MTAtMzNkNy00ZDNlLTkwZWQtZjE1MjZkYWNhMTFjXkEyXkFqcGdeQXVyMjgyMDk1MzY@._V1_.jpg",
+                "width": 512
+              },
+              "runningTimeInMinutes": 173,
+              "nextEpisode": "/title/tt5818050/",
+              "numberOfEpisodes": 2,
+              "seriesEndYear": 2005,
+              "seriesStartYear": 2005,
+              "title": "Elvis",
+              "titleType": "tvMiniSeries",
+              "year": 2005
+            }
+          ]
+        },
+        "year": 2010
+      },
+      {
+        "awardName": "Festival Award",
+        "awardNominationId": "/event/ev0001944/ee0065345/an0871120/",
+        "category": "Best Supporting Actor",
+        "eventEditionId": "/event/ev0001944/ee0065345/",
+        "eventId": "/event/ev0001944/",
+        "eventName": "Madrid International Film Festival, ES",
+        "instanceWithinYear": 1,
+        "isWinner": false,
+        "nominations": {
+          "names": [
+            {
+              "akas": [
+                "Jonathan Rhys Myers",
+                "Jonathan Rhys-Meyers",
+                "Jonathan Rhys-Myer"
+              ],
+              "id": "/name/nm0001667/",
+              "image": {
+                "height": 2208,
+                "id": "/name/nm0001667/images/rm1272017664",
+                "url": "https://m.media-amazon.com/images/M/MV5BMGEwYzJhOTctNjZkMy00NTZjLWE3MTctNGU2ZGRmODNiZmNiXkEyXkFqcGdeQXVyOTQyNzIyMDM@._V1_.jpg",
+                "width": 1242
+              },
+              "legacyNameText": "Rhys Meyers, Jonathan",
+              "name": "Jonathan Rhys Meyers"
+            }
+          ],
+          "titles": [
+            {
+              "disambiguation": "II",
+              "id": "/title/tt2090465/",
+              "image": {
+                "height": 6000,
+                "id": "/title/tt2090465/images/rm3378262016",
+                "url": "https://m.media-amazon.com/images/M/MV5BZTFhNWQwYWMtN2FhYS00YWFkLTgwM2QtMWMyYjVkMDY4NmNkXkEyXkFqcGdeQXVyMjM4NTM5NDY@._V1_.jpg",
+                "width": 4050
+              },
+              "runningTimeInMinutes": 93,
+              "title": "Black Butterfly",
+              "titleType": "movie",
+              "year": 2017
+            }
+          ]
+        },
+        "year": 2017
+      },
+      {
+        "awardName": "Festival Prize",
+        "awardNominationId": "/event/ev0003621/ee0081617/an0980635/",
+        "category": "Best Actor",
+        "eventEditionId": "/event/ev0003621/ee0081617/",
+        "eventId": "/event/ev0003621/",
+        "eventName": "Manchester International Film Festival (MANIFF)",
+        "instanceWithinYear": 1,
+        "isWinner": true,
+        "nominations": {
+          "companies": [
+            {
+              "id": "/company/co0627130/",
+              "name": "Cover Films",
+              "region": "GB",
+              "types": ["production"],
+              "note": "(production company)"
+            }
+          ],
+          "names": [
+            {
+              "akas": [
+                "Jonathan Rhys Myers",
+                "Jonathan Rhys-Meyers",
+                "Jonathan Rhys-Myer"
+              ],
+              "id": "/name/nm0001667/",
+              "image": {
+                "height": 2208,
+                "id": "/name/nm0001667/images/rm1272017664",
+                "url": "https://m.media-amazon.com/images/M/MV5BMGEwYzJhOTctNjZkMy00NTZjLWE3MTctNGU2ZGRmODNiZmNiXkEyXkFqcGdeQXVyOTQyNzIyMDM@._V1_.jpg",
+                "width": 1242
+              },
+              "legacyNameText": "Rhys Meyers, Jonathan",
+              "name": "Jonathan Rhys Meyers",
+              "note": "(actor)"
+            }
+          ],
+          "titles": [
+            {
+              "id": "/title/tt3457508/",
+              "image": {
+                "height": 5000,
+                "id": "/title/tt3457508/images/rm1588477952",
+                "url": "https://m.media-amazon.com/images/M/MV5BMzA0N2RkZjctMzdjNy00YzI1LTliOTgtMDhjOWM1ZmRiNjZkXkEyXkFqcGdeQXVyMTk1MDAyMzM@._V1_.jpg",
+                "width": 3375
+              },
+              "runningTimeInMinutes": 93,
+              "title": "Damascus Cover",
+              "titleType": "movie",
+              "year": 2017
+            }
+          ]
+        },
+        "winningRank": 1,
+        "year": 2018
+      },
+      {
+        "awardName": "Festival Prize",
+        "awardNominationId": "/event/ev0000737/ee0071559/an1029955/",
+        "category": "Best Actor",
+        "eventEditionId": "/event/ev0000737/ee0071559/",
+        "eventId": "/event/ev0000737/",
+        "eventName": "Boston Film Festival",
+        "instanceWithinYear": 1,
+        "isWinner": true,
+        "nominations": {
+          "companies": [
+            {
+              "id": "/company/co0627130/",
+              "name": "Cover Films",
+              "region": "GB",
+              "types": ["production"]
+            }
+          ],
+          "names": [
+            {
+              "akas": [
+                "Jonathan Rhys Myers",
+                "Jonathan Rhys-Meyers",
+                "Jonathan Rhys-Myer"
+              ],
+              "id": "/name/nm0001667/",
+              "image": {
+                "height": 2208,
+                "id": "/name/nm0001667/images/rm1272017664",
+                "url": "https://m.media-amazon.com/images/M/MV5BMGEwYzJhOTctNjZkMy00NTZjLWE3MTctNGU2ZGRmODNiZmNiXkEyXkFqcGdeQXVyOTQyNzIyMDM@._V1_.jpg",
+                "width": 1242
+              },
+              "legacyNameText": "Rhys Meyers, Jonathan",
+              "name": "Jonathan Rhys Meyers"
+            }
+          ],
+          "titles": [
+            {
+              "id": "/title/tt3457508/",
+              "image": {
+                "height": 5000,
+                "id": "/title/tt3457508/images/rm1588477952",
+                "url": "https://m.media-amazon.com/images/M/MV5BMzA0N2RkZjctMzdjNy00YzI1LTliOTgtMDhjOWM1ZmRiNjZkXkEyXkFqcGdeQXVyMTk1MDAyMzM@._V1_.jpg",
+                "width": 3375
+              },
+              "runningTimeInMinutes": 93,
+              "title": "Damascus Cover",
+              "titleType": "movie",
+              "year": 2017
+            }
+          ]
+        },
+        "winningRank": 1,
+        "year": 2017
+      }
+    ],
+    "id": "/name/nm0001667/"
+  }
+}
