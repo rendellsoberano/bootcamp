@@ -18,19 +18,28 @@
         for (let i = 0; i < books.length; i++) {
           let row =
             "<tr><td>" +
-            books[i].id +
-            "</td><td>" +
             books[i].title +
-            "</td><td>" +
+            "</td><td><button class='btn btn-success' data-bs-toggle='modal' data-bs-target='#book_" +
+            books[i].id +
+            "'>View</button></td</tr>";
+          let modal =
+            '<div class="modal fade" id="book_' +
+            books[i].id +
+            '" tabindex="-1"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"> <h5 class="modal-title">' +
+            books[i].title +
+            '</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body">' +
+            books[i].description +
+            "<br />Genre: " +
             books[i].genre +
-            "</td></tr>";
+            "</div></div></div></div>";
           $("#book_list").append(row);
+          $("#book_list").append(modal);
         }
       }
 
-      getData("http://localhost:3007/api/books");
+      getData("http://localhost:3006/api/books");
     </script>
-    <title>Library</title>
+    <title>Book Viewer</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -58,15 +67,16 @@
       </div>
     </nav>
     <div class="container">
-      <h1>Library</h1>
-      <table class="table">
-        <tr>
-          <th>ID</th>
-          <th>Title</th>
-          <th>Genre</th>
-        </tr>
-        <tbody id="book_list"></tbody>
-      </table>
+      <h1>Book Viewer</h1>
+      <div class="row">
+        <table class="table">
+          <tr>
+            <th>Title</th>
+            <th>Action</th>
+          </tr>
+          <tbody id="book_list"></tbody>
+        </table>
+      </div>
     </div>
   </body>
 </html>

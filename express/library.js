@@ -56,6 +56,7 @@ app.put("/api/books", (req, res) => {
   let new_book = {
     id: b.length,
     title: req.body.title,
+    description: req.body.description,
     genre: req.body.genre,
   };
 
@@ -134,6 +135,6 @@ app.get("/shop", (req, res) => {
 });
 
 // Server setup
-let port = 3005;
+let port = 3007;
 app.listen(port);
 console.log("Starting server at .." + port + ".");
