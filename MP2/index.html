@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script href="js/login.js"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <title>Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,500&family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <script src="js/index.js"></script>
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+  <body>
+    <!-- carousel -->
+    <div
+      id="carouselhero"
+      class="carousel carousel-light slide carousel-fade"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselhero"
+          data-bs-slide-to="0"
+          class="active c-button"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselhero"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+          class="c-button"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselhero"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+          class="c-button"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item c-item active">
+          <img
+            src="img/carousel1.jpeg"
+            class="d-block w-100 c-image"
+            alt="Person lifting a barbel equipment"
+          />
+          <div class="carousel-caption c-caption top-0">
+            <p>ELEVATE YOUR FITNESS JOURNEY</p>
+          </div>
+        </div>
+        <div class="carousel-item c-item">
+          <img
+            src="img/carousel2.jpeg"
+            class="d-block w-100 c-image"
+            alt="Person lifting a globe dumbell equipment"
+          />
+          <div class="carousel-caption c-caption top-0">
+            <p>EMBRACE YOUR POTENTIAL</p>
+          </div>
+        </div>
+        <div class="carousel-item c-item">
+          <img
+            src="img/carousel3.jpeg"
+            class="d-block w-100 c-image"
+            alt="Person using cycling equipment"
+          />
+          <div class="carousel-caption c-caption top-0">
+            <p>UNLEASH YOUR STRENGTH</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- carousel -->
+    <!-- intro -->
+    <div class="container-fluid" id="welcome_text">
+      <h1>WELCOME TO FIT FLEX</h1>
+      <p>"Where Fitness Meets Lifestyle."</p>
+      <p>
+        Our mission is to inspire and empower individuals on their fitness
+        journey. At Fit Flex, we're dedicated to providing a supportive
+        community, cutting-edge facilities, and expert guidance. Join us as we
+        strive to cultivate a culture of health, wellness, and personal growth.
+        Your journey to a fitter, stronger, and healthier you begins here.
+      </p>
+      <hr />
+    </div>
+
+    <!-- intro -->
+    <!-- story -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-6">
+          <h1 id="our_story">Our Story</h1>
+          <p>
+            The journey began when two friends, Leo and Chris discovered their
+            shared commitment to a healthy lifestyle in 2020. They envisioned a
+            gym that not only housed state-of-the-art equipment but also
+            fostered a sense of belonging and encouragement. The trio pooled
+            their resources, expertise, and unwavering enthusiasm to bring Fit
+            Flex Gym to life.
+          </p>
+        </div>
+        <div class="col-lg-6">
+          <img src="img/friends.jpg" class="img-fluid" id="friends_img" />
+        </div>
+      </div>
+    </div>
+    <!-- story -->
+    <!-- bmi intro -->
+    <h1 id="get_started">GET STARTED</h1>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-6">
+          <img src="img/bmi.jpg" class="img-fluid" />
+          <h5 class="what_bmi">What is Body Mass Index (BMI)</h5>
+          <p id="what_para">
+            It is a numerical value of a person's weight in relation to their
+            height. BMI is a widely used screening tool to categorize
+            individuals into different weight status categories.
+          </p>
+        </div>
+        <!-- bmi intro -->
+        <!-- bmi calculator -->
+        <div class="col-lg-6">
+          <h5 class="what_bmi">Check it out: BMI Evaluator</h5>
+          <div>
+            <form id="form_bmi" class="form-control">
+              <p id="weight_text">Weight(kg)</p>
+              <input
+                class="form-control"
+                id="weight_bmi"
+                type="number"
+                placeholder="0"
+                required
+              />
+              <p id="height_text">Height(cm)</p>
+              <input
+                class="form-control"
+                id="height_bmi"
+                type="number"
+                placeholder="0"
+                required
+              /><br />
+
+              <p id="y_bmi">Your BMI is:</p>
+              <p id="bmi_result"></p>
+              <p id="y_status"><span id="bmi_status"></span></p>
+              <br />
+              <div id="buttons">
+                <button id="reset_button" type="reset" class="btn">
+                  Reset
+                </button>
+                <button id="submit_button" type="submit" class="btn">
+                  Submit
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- bmi calculator -->
+    <!-- Equipments -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-12">
+          <h1>Vicinity Highlights</h1>
+        </div>
+        <div class="col-lg-4">
+          <p>
+            Here at Fit Flex Gym, we take pride in offering a cutting-edge
+            fitness experience with top-of-the-line equipment designed to
+            elevate your workout.
+          </p>
+          <div class="wrapper">
+            <img src="img/equipments3.png" class="img-fluid v-img" />
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <p>
+            Our facility boasts a diverse range of high-performance gym
+            equipment, from state-of-the-art cardio machines to advanced
+            strength training apparatus.
+          </p>
+          <div class="wrapper">
+            <img src="img/equipments2.png" class="img-fluid v-img" />
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <p>
+            Our dedicated free weights section ensures that you can customize
+            your strength training routine, while our cardio zone provides a
+            high-energy environment for effective cardiovascular workouts.
+          </p>
+          <div class="wrapper">
+            <img src="img/equipments1.jpg" class="img-fluid v-img" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Equipments -->
+    <h1></h1>
+  </body>
+</html>

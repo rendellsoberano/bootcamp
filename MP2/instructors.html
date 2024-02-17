@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script href="js/instructors.js"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <title>Instructors</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="css/instructors.css" />
+  </head>
+  <body>
+    <div class="container-fluid" id="hero_div">
+      <img
+        src="img/hero_instuctors.jpg"
+        class="img-fluid"
+        alt="Three persons running on a threadmill"
+        id="img_hero"
+      />
+      <div class="text-overlay">
+        <h1>PERSONAL TRAINING</h1>
+        <p>Be on your full potential with our Certified Coaches</p>
+        <a class="btn" id="btn_coach" href="#coach_div">Get A Coach</a>
+      </div>
+    </div>
+
+    <div class="container-fluid" id="instructor_div">
+      <h1 id="intro"><b>Fit Flex Instructors</b></h1>
+      <p>
+        Our Fit Flex Gym coaches are not just trainers, they are mentors who
+        genuinely care about your well-being and success. <br />With a focus on
+        personalized attention, our instructors take the time to understand your
+        individual needs, creating tailored workout plans that align with your
+        fitness objectives.
+      </p>
+
+      <div class="row" id="instructor_div">
+        <div class="col-lg-6">
+          <img
+            src="img/instructor1.webp"
+            class="img-fluid"
+            alt="Fit Flex
+          Instructors working out."
+            id="img_instructors"
+          />
+        </div>
+        <div class="col-lg-6">
+          <h1 id="para1">
+            <b>
+              CERTIFIED<br />FITNESS<br />
+              INSTRUCTORS
+            </b>
+          </h1>
+          <h3 id="para2">
+            Guiding you towards strength, wellness, and success. American
+            Council on Exercise (ACE), National Academy of Sports Medicine
+            (NASM), Fitness Edutraining Asia (FEA).
+          </h3>
+        </div>
+      </div>
+      <div>
+        <h2 id="coach_div">Our Coaches</h2>
+      </div>
+    </div>
+    <div class="container-fluid" id="coaches_cont">
+      <div class="row gy-3">
+        <div class="col-md-4">
+          <div class="card">
+            <img
+              src="img/coach1.jpg"
+              class="card-img-top"
+              alt="Male gym coach"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Coach George</h5>
+              <p class="d-inline-flex gap-1">
+                <button
+                  class="btn"
+                  id="btn_about"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#about_george"
+                >
+                  About me
+                </button>
+                <a class="btn" id="btn_train" href="#hire_coach">
+                  Train with me
+                </a>
+              </p>
+              <div class="collapse" id="about_george">
+                <div class="card card-body">
+                  <b>George Cowell</b> A seasoned fitness coach with over a
+                  decade of experience, is renowned for her expertise in
+                  strength training and functional fitness. <br />A former
+                  competitive athlete, George transitioned into coaching to
+                  share her passion for holistic well-being. <br />Specializing
+                  in personalized training programs, George empowers her clients
+                  to surpass their fitness goals through a combination of
+                  strength, flexibility, and mental resilience.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img
+              src="img/coach2.jpg"
+              class="card-img-top"
+              alt="Male gym coach"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Coach Dave</h5>
+              <p class="d-inline-flex gap-1">
+                <button
+                  class="btn"
+                  id="btn_about"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#about_dave"
+                >
+                  About me
+                </button>
+                <a class="btn" id="btn_train" href="#hire_coach">
+                  Train with me
+                </a>
+              </p>
+              <div class="collapse" id="about_dave">
+                <div class="card card-body">
+                  <b>Dave Stockwell</b> A certified cardio and endurance coach,
+                  brings a dynamic and energetic approach to fitness. <br />With
+                  a background in competitive marathon running, Dave emphasizes
+                  cardiovascular health and overall stamina. <br />Through
+                  engaging and challenging workouts, Dave motivates clients to
+                  break through fitness plateaus, ensuring they achieve optimal
+                  cardiovascular fitness and endurance levels.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img
+              src="img/coach3.jpg"
+              class="card-img-top"
+              alt="Female gym coach1"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Coach Lyndsay</h5>
+              <p class="d-inline-flex gap-1">
+                <button
+                  class="btn"
+                  id="btn_about"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#about_lyndsay"
+                >
+                  About me
+                </button>
+                <a class="btn" id="btn_train" href="#hire_coach">
+                  Train with me
+                </a>
+              </p>
+              <div class="collapse" id="about_lyndsay">
+                <div class="card card-body">
+                  <b>Lyndsay Maven</b> A highly skilled gymnast turned
+                  flexibility coach, recognized for her ability to enhance
+                  mobility and agility. <br />With a focus on yoga-inspired
+                  practices and targeted stretching routines, lyndsay helps
+                  clients achieve greater flexibility while fostering a
+                  mind-body connection.<br />
+                  Her holistic approach to fitness extends beyond physical
+                  prowess, promoting mental clarity and stress relief through
+                  mindful movement.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img
+              src="img/coach4.jpg"
+              class="card-img-top"
+              alt="Male gym coach"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Coach Jill</h5>
+              <p class="d-inline-flex gap-1">
+                <button
+                  class="btn"
+                  id="btn_about"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#about_jill"
+                >
+                  About me
+                </button>
+                <a class="btn" id="btn_train" href="#hire_coach">
+                  Train with me
+                </a>
+              </p>
+              <div class="collapse" id="about_jill">
+                <div class="card card-body">
+                  <b>Jill Cooper</b>A dedicated bodybuilding and strength coach,
+                  is known for sculpting physiques and transforming bodies.<br />
+                  Drawing from his extensive knowledge of resistance training
+                  and nutrition, Jill tailors programs to help clients build
+                  muscle mass and achieve their desired physique. <br />His
+                  motivational coaching style and commitment to individualized
+                  plans have garnered him a reputation for producing impressive
+                  and sustainable results.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img
+              src="img/coach5.jpg"
+              class="card-img-top"
+              alt="Male gym coach"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Coach Adam</h5>
+              <p class="d-inline-flex gap-1">
+                <button
+                  class="btn"
+                  id="btn_about"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#about_adam"
+                >
+                  About me
+                </button>
+                <a class="btn" id="btn_train" href="#hire_coach">
+                  Train with me
+                </a>
+              </p>
+              <div class="collapse" id="about_adam">
+                <div class="card card-body">
+                  <b>Adam Perry</b> A CrossFit enthusiast and certified coach,
+                  thrives on intensity and functional movements. <br />
+                  Specializing in high-intensity workouts, Adam emphasizes
+                  varied and challenging exercises to enhance overall fitness.
+                  <br />His coaching style blends motivation with a focus on
+                  technique, ensuring clients achieve peak performance in a
+                  supportive and competitive environment.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img
+              src="img/coach6.jpg"
+              class="card-img-top"
+              alt="Female gym coach"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Coach Michelle</h5>
+              <p class="d-inline-flex gap-1">
+                <button
+                  class="btn"
+                  id="btn_about"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#about_michelle"
+                >
+                  About me
+                </button>
+                <a class="btn" id="btn_train" href="#hire_coach">
+                  Train with me
+                </a>
+              </p>
+              <div class="collapse" id="about_michelle">
+                <div class="card card-body">
+                  <b>Michelle Duncan</b> A holistic wellness coach, focuses on
+                  integrating mindfulness into fitness routines.<br />
+                  With a background in meditation and yoga, Raj helps clients
+                  connect with their bodies, reduce stress, and improve mental
+                  clarity.<br />
+                  His coaching style emphasizes the symbiotic relationship
+                  between physical and mental well-being, fostering a mindful
+                  and balanced approach to fitness.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div>
+        <h1 id="hire_coach">Elevate Your Fitness Journey</h1>
+        <h5 id="hire_coach2">Hire a Coach</h5>
+      </div>
+      <div class="container">
+        <form>
+          <label>Please Select a Coach</label>
+          <select class="form-select" id="dropdown">
+            <option selected>Any</option>
+            <option value="1">Coach George</option>
+            <option value="2">Coach Dave</option>
+            <option value="3">Coach Lyndsay</option>
+            <option value="4">Coach Jill</option>
+            <option value="5">Coach Adam</option>
+            <option value="6">Coach Michelle</option></select
+          ><br />
+
+          <label>Choose Preffered Schedule</label>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value=""
+              id="defaultCheck1"
+            />
+            <label class="form-check-label" for="check1">
+              Morning Schedule (6:00AM - 12:00PM)
+            </label>
+          </div>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value="morning"
+              id="check2"
+            />
+            <label class="form-check-label" for="defaultCheck2">
+              Afternoon Schedule (12:00PM - 6:00PM)
+            </label>
+          </div>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value="afternoon"
+              id="check3"
+            />
+            <label class="form-check-label" for="defaultCheck2">
+              Late Night Schedule (6:00PM - 11:00PM)
+            </label>
+          </div>
+          <br />
+
+          <p>
+            Reminders:<br />
+            After filling up this form, payments, consultation, work-out
+            programs, and assesments are being processed only at Fit Flex
+            Gym.<br />
+
+            This form is only to secure a schedule for a coach.
+          </p>
+          <input type="submit" value="Confirm" class="btn btn-primary mb-5" />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

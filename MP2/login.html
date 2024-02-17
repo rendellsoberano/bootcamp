@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/login.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <title>Login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,500&family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <script src="js/login.js"></script>
+    <script src="js/register.js"></script>
+  </head>
+  <body id="body">
+    <section>
+      <div class="container-fluid" id="login_frame">
+        <div class="row">
+          <!-- login image start -->
+          <div class="col-lg-6">
+            <img src="img/gym_person2.jpg" id="login_pic" />
+          </div>
+          <!-- login image end -->
+          <!-- login form -->
+          <div class="col-lg-6">
+            <div id="intro_para">
+              <p id="intro_welcome" class="display-5">
+                Welcome to
+                <span id="intro_welcome_text">Fit Flex</span> Your Ultimate
+                Fitness Destination!
+              </p>
+            </div>
+            <div id="box_form">
+              <div id="box">
+                <form id="form_content">
+                  <h2 id="sign_in">Sign in</h2>
+                  <label for="email_input" class="form-label mb-3"
+                    >Email address</label
+                  >
+                  <input
+                    type="email"
+                    placeholder="Juandelacruz@gmail.com"
+                    class="form-control"
+                    id="email_input"
+                    aria-describedby="email_help"
+                  />
+                  <div id="email_help" class="form-text">
+                    We'll never share your email with anyone else.
+                  </div>
+                  <p id="email_checker"></p>
+
+                  <label for="password_input" class="form-label mb-3"
+                    >Password</label
+                  >
+                  <input
+                    type="password"
+                    class="form-control"
+                    id="password_input"
+                  />
+                  <p id="pass_checker"></p>
+                  <input
+                    type="checkbox"
+                    class="form-check-input mb-3"
+                    id="check_input"
+                  />
+                  <label class="form-check-label" for="check_input"
+                    >Remember me</label
+                  >
+                  <div class="mb-3">
+                    <button type="submit" class="btn" id="login_btn">
+                      Login
+                    </button>
+                    <button
+                      type="button"
+                      class="btn"
+                      id="register_btn"
+                      data-bs-toggle="modal"
+                      data-bs-target="#registration"
+                    >
+                      Register
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+          <!-- login form end -->
+        </div>
+      </div>
+      <!-- registration modal start -->
+      <div class="row col-lg-12">
+        <div
+          class="modal fade"
+          id="registration"
+          tabindex="-1"
+          aria-hidden="true"
+        >
+          <div
+            class="modal-dialog modal-dialog-centered modal-dialog-scrollable"
+          >
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5 r-text">
+                  Please fill up the registration form.
+                </h1>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body" id="modal_registration">
+                <form id="regis_form" autocomplete="off">
+                  <div class="row">
+                    <div class="col-lg-6">
+                      <input
+                        type="text"
+                        class="form-control"
+                        required
+                        placeholder="First name: Juan"
+                        aria-label="First name"
+                        id="first_name"
+                      />
+                    </div>
+                    <div class="col-lg-6">
+                      <input
+                        type="text"
+                        class="form-control"
+                        required
+                        placeholder="Last name: Dela Cruz"
+                        aria-label="Last name"
+                        id="last_name"
+                      />
+                    </div>
+                  </div>
+                  <div class="mb-3">
+                    <input
+                      type="email"
+                      class="form-control"
+                      required
+                      id="costumer_email"
+                      aria-describedby="r_email_help"
+                      placeholder="Email address: juandelacruz@gmail.com"
+                    />
+                    <div id="r_email_help" class="form-text r-text">
+                      Please input valid email address.
+                    </div>
+                  </div>
+                  <div class="mb-3">
+                    <input
+                      type="password"
+                      class="form-control"
+                      required
+                      id="costumer_password"
+                      placeholder="Input password"
+                    />
+                    <label for="costumer_password" class="r-text"
+                      >Password</label
+                    >
+                  </div>
+                  <div>
+                    <input
+                      type="password"
+                      class="form-control"
+                      required
+                      id="confirm_password"
+                      placeholder="Input password"
+                    />
+                    <label for="confirm_password" class="r-text"
+                      >Confirm Password</label
+                    >
+                  </div>
+                  <div id="same_pass"></div>
+                  <div class="mb-3">
+                    <label for="costumer_number" class="form-label"></label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="costumer_number"
+                      aria-describedby="number_help"
+                      placeholder="Phone Number"
+                    />
+                    <div id="number_help" class="form-text">
+                      <strong>Input "eleven" numeric keys only.</strong>
+                      We'll send a message for approval.
+                    </div>
+                  </div>
+                  <div class="mb-3">
+                    <button
+                      type="submit"
+                      class="btn btn-success"
+                      id="submit_btn"
+                    >
+                      Submit
+                    </button>
+                  </div>
+                </form>
+              </div>
+              <div class="modal-footer" id="modal_close">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-bs-dismiss="modal"
+                  id="close_btn"
+                >
+                  Close
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- registration modal end -->
+    </section>
+  </body>
+</html>

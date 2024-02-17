@@ -1,0 +1,149 @@
+#body {
+  background-color: rgb(218, 218, 218);
+}
+#hero_div {
+  background-color: rgb(218, 218, 218);
+}
+#img_hero {
+  filter: brightness(0.5);
+}
+.text-hero {
+  text-align: center;
+}
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: whitesmoke;
+  font-size: 24px;
+  font-weight: bold;
+}
+#btn_coach {
+  background-color: #ffa732;
+}
+@media (100px <= width <= 400px) {
+  .text-overlay {
+    transform: scale(0);
+  }
+}
+@media (400px <= width <= 500px) {
+  .text-overlay {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: whitesmoke;
+    font-size: 10px;
+  }
+}
+@media (501px <= width <= 650px) {
+  .text-overlay {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: whitesmoke;
+    font-size: 10px;
+  }
+}
+@media (651px <= width <= 900px) {
+  .text-overlay {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: whitesmoke;
+    font-size: 10px;
+  }
+}
+@media (901px <= width <= 1100px) {
+  .text-overlay {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: whitesmoke;
+    font-size: 10px;
+  }
+}
+#intro {
+  text-shadow: 2px 2px 2px #c21292;
+}
+#instructor_div {
+  background-color: rgb(218, 218, 218);
+}
+#para1 {
+  margin-top: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 2px 2px 2px #c21292;
+}
+
+#para2 {
+  width: fit-content;
+}
+
+@media (992px<= width <=1192px) {
+  #para1 {
+    margin-top: 10px;
+  }
+}
+@media (100px<= width <=991px) {
+  #para1 {
+    margin-top: 10px;
+  }
+}
+@media (100px<= width <=640px) {
+  #para1 {
+    font-size: 25px;
+  }
+  #para2 {
+    font-size: 15px;
+  }
+}
+#card_coach {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+#btn_about {
+  background-color: #ffa732;
+  padding: 5px;
+}
+#btn_train {
+  background-color: #c21292;
+  padding: 5px;
+}
+#coach_div {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 2px 2px 2px #c21292;
+}
+#coaches_cont {
+  background-color: rgb(218, 218, 218);
+  justify-content: center;
+}
+#hire_coach {
+  margin-top: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 2px 2px 2px #c21292;
+}
+#hire_coach2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 2px 2px 2px #ffa732;
+}
+#dropdown {
+  width: fit-content;
+}
+.card {
+  width: 100%;
+}

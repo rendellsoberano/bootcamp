@@ -1,0 +1,89 @@
+body {
+  background-color: rgb(218, 218, 218);
+}
+
+.c-item {
+  height: 480px;
+}
+.c-image {
+  height: 100%;
+  object-fit: cover;
+}
+.c-button {
+  border-radius: 50%;
+}
+.c-caption {
+  margin-top: 10%;
+  font-size: 400%;
+}
+#welcome_text {
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+#our_story {
+  text-align: center;
+  margin-top: 20%;
+}
+#friends_img {
+  border-radius: 15%;
+}
+
+#get_started {
+  text-align: center;
+  margin-top: 25px;
+  /* background-color: rgb(218, 218, 218); */
+}
+.what_bmi {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#what_para {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#reset_button {
+  background-color: #3c0034;
+  color: whitesmoke;
+  margin: 5px;
+}
+#submit_button {
+  background-color: #423e01;
+  color: whitesmoke;
+  margin: 5px;
+}
+#y_bmi,
+#bmi_result,
+#y_status,
+#buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#bmi_result {
+  font-size: 50px;
+}
+#weight_bmi,
+#height_bmi {
+  width: 50%;
+  margin: auto;
+}
+#height_text,
+#weight_text {
+  text-align: center;
+  margin-top: 5px;
+}
+.wrapper {
+  overflow: hidden;
+}
+.v-img {
+  border-radius: 15%;
+  filter: grayscale(100%);
+  transition: 0.5s ease-in;
+  cursor: pointer;
+}
+.v-img:hover {
+  filter: grayscale(0%);
+  transform: scale(1.3);
+}

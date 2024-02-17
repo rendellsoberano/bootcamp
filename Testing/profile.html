@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style-registration.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <h2>Profile Page</h2>
+        <button onclick="logOut()" style="float: right">Logout</button>
+        <hr />
+        <h3>Welcome</h3>
+        <h4>
+          Name:
+          <script>
+            document.writen(localStorage.getItem("name"));
+          </script>
+        </h4>
+        <h6>
+          Your Email Is:
+          <script>
+            document.writen(localStorage.getItem("email"));
+          </script>
+        </h6>
+      </div>
+    </div>
+  </body>
+  <script>
+    function logOut() {
+      localStorage.removeItem("name");
+      localStorage.removeItem("email");
+      window.location.href = "login.html";
+    }
+  </script>
+</html>
